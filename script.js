@@ -74,15 +74,15 @@ const resetTimer = () => {
   secDisplay.textContent = `${format(seconds)}`
   minDisplay.textContent = `${format(minutes)}`
 
-  btnStart.textContent = "Iniciar"
-  btnStart.style.display = "inline"
-  btnReset.style.display = "inline"
-  btnPause.style.display = "none"
-  btnLap.style.display = "none"
+  btnStart.textContent = "Iniciar";
+  btnStart.style.display = "inline";
+  btnReset.style.display = "inline";
+  btnPause.style.display = "none";
+  btnLap.style.display = "none";
+  menuLaps.style.display = "none";
   display.style.color = "#ffffff";
   centDisplay.style.color = "#ffffff";
   lapsList.innerHTML = "";
-  menuLaps.style.display = "none";
 }
 
 const lapTimer = () => {
