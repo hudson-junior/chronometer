@@ -82,6 +82,7 @@ const resetTimer = () => {
   display.style.color = "#ffffff";
   centDisplay.style.color = "#ffffff";
   lapsList.innerHTML = "";
+  menuLaps.style.display = "none";
 }
 
 const lapTimer = () => {
